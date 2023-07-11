@@ -1,6 +1,5 @@
 package com.example.project.bookmyshowbackend.Controller;
 
-
 import com.example.project.bookmyshowbackend.DTO.EntryDTO.MovieEntryDto;
 import com.example.project.bookmyshowbackend.DTO.ResponseDTO.MovieResponseDto;
 import com.example.project.bookmyshowbackend.DTO.ResponseDTO.UserResponseDto;
@@ -10,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
 
 @RestController
 @RequestMapping("movie")
